@@ -1,0 +1,15 @@
+apiVersion: Defines the API version (v1 is the stable version for Pods).
+
+kind: Defines the type of Kubernetes resource, which is a Pod in this case.
+
+metadata: Contains information like the name of the pod and labels (used for identification, filtering, and management).
+
+spec: Specifies the containers within the Pod.
+
+containers: A list of containers to be deployed in this pod. Here, it specifies the NGINX container.
+
+name: The name of the container.
+
+image: The Docker image for the container (nginx:latest).
+
+ports: Exposes the port (80) for the NGINX container to allow traffic.
